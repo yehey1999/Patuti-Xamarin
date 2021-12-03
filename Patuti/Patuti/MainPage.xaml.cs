@@ -15,17 +15,17 @@ namespace Patuti
 {
     public partial class MainPage : ContentPage
     {
+        DisplayInfo mainDisplayInfo = DeviceDisplay.MainDisplayInfo;
         private float xIncrement = 0;
         private float yIncrement = 0;
         private string patutiPath;
-        DisplayInfo mainDisplayInfo = DeviceDisplay.MainDisplayInfo;
         private const string IMAGES_PATH = "Patuti.Moves.";
         private const int SPEED = 20;
         private const int JUMP_HEIGHT = -100;
 
         private string[] idle = new string[2]
             {
-                "idle1.png",
+                "idle-1.png",
                 "idle-2.png"
             };
 

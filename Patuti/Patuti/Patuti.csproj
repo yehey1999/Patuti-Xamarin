@@ -21,8 +21,8 @@
     <None Remove="Moves\dock-3.png" />
     <None Remove="Moves\dock-4.png" />
     <None Remove="Moves\dock-5.png" />
+    <None Remove="Moves\idle-1.png" />
     <None Remove="Moves\idle-2.png" />
-    <None Remove="Moves\idle1.png" />
     <None Remove="Moves\jump-1.png" />
     <None Remove="Moves\jump-2.png" />
     <None Remove="Moves\jump-3.png" />
@@ -54,7 +54,7 @@
     <EmbeddedResource Include="Moves\dock-4.png" />
     <EmbeddedResource Include="Moves\dock-5.png" />
     <EmbeddedResource Include="Moves\idle-2.png" />
-    <EmbeddedResource Include="Moves\idle1.png" />
+    <EmbeddedResource Include="Moves\idle-1.png" />
     <EmbeddedResource Include="Moves\jump-1.png" />
     <EmbeddedResource Include="Moves\jump-2.png" />
     <EmbeddedResource Include="Moves\jump-3.png" />
