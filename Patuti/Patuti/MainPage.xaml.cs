@@ -84,7 +84,7 @@ namespace Patuti
             SKSurface surface = e.Surface;
             SKCanvas canvas = surface.Canvas;
             Assembly assembly = GetType().GetTypeInfo().Assembly;
-            SKBitmap patuti;
+            SKBitmap patuti, area;
             canvas.Clear(SKColors.CornflowerBlue);
 
             using (Stream stream = assembly.GetManifestResourceStream(patutiPath))
@@ -95,9 +95,17 @@ namespace Patuti
                 patuti = patuti.Resize(dstInfo, SKBitmapResizeMethod.Hamming);
             }
 
+            using (Stream stream = assembly.GetManifestResourceStream(IMAGES_PATH+"area.png"))
+            {
+                area = SKBitmap.Decode(stream);
+                SKImageInfo dstInfo = new SKImageInfo(500,150);
+                area = area.Resize(dstInfo, SKBitmapResizeMethod.Hamming);
+            }
+
             float xPosition = e.Info.Width / 2 + xIncrement;
             float yPosition = e.Info.Height / 2 + yIncrement;
             canvas.DrawBitmap(patuti, xPosition, yPosition);
+            canvas.DrawBitmap(area, (e.Info.Width / 6), (e.Info.Height / 2) + 150);
         }
 
         public async void OnUpClicked(object sender, EventArgs e)

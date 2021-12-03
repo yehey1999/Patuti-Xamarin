@@ -590,4 +590,3 @@ D:\Seatworks\Patuti\Patuti\Patuti.Android\obj\Debug\110\stamp\_ConvertResourcesC
 D:\Seatworks\Patuti\Patuti\Patuti.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 D:\Seatworks\Patuti\Patuti\Patuti.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 D:\Seatworks\Patuti\Patuti\Patuti.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
-D:\Seatworks\Patuti\Patuti\Patuti.Android\obj\Debug\110\Patuti.Android.csproj.CopyComplete
