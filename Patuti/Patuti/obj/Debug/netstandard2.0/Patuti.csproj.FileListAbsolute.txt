@@ -1,0 +1,17 @@
+D:\Seatworks\Patuti\Patuti\Patuti\bin\Debug\netstandard2.0\Patuti.deps.json
+D:\Seatworks\Patuti\Patuti\Patuti\bin\Debug\netstandard2.0\Patuti.dll
+D:\Seatworks\Patuti\Patuti\Patuti\bin\Debug\netstandard2.0\ref\Patuti.dll
+D:\Seatworks\Patuti\Patuti\Patuti\bin\Debug\netstandard2.0\Patuti.pdb
+D:\Seatworks\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\Patuti.csproj.AssemblyReference.cache
+D:\Seatworks\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\Patuti.GeneratedMSBuildEditorConfig.editorconfig
+D:\Seatworks\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Seatworks\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Seatworks\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\Patuti.AssemblyInfoInputs.cache
+D:\Seatworks\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\Patuti.AssemblyInfo.cs
+D:\Seatworks\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\Patuti.csproj.CoreCompileInputs.cache
+D:\Seatworks\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Seatworks\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\Patuti.dll
+D:\Seatworks\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\ref\Patuti.dll
+D:\Seatworks\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\Patuti.pdb
+D:\Seatworks\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\Patuti.Properties.Resources.resources
+D:\Seatworks\Patuti\Patuti\Patuti\obj\Debug\netstandard2.0\Patuti.csproj.GenerateResource.cache

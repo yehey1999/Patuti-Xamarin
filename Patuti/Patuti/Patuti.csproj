@@ -1,0 +1,97 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Moves\area.png" />
+    <None Remove="Moves\background.png" />
+    <None Remove="Moves\bg.png" />
+    <None Remove="Moves\bullet_h.png" />
+    <None Remove="Moves\bullet_v.png" />
+    <None Remove="Moves\dock-1.png" />
+    <None Remove="Moves\dock-2.png" />
+    <None Remove="Moves\dock-3.png" />
+    <None Remove="Moves\dock-4.png" />
+    <None Remove="Moves\dock-5.png" />
+    <None Remove="Moves\idle-2.png" />
+    <None Remove="Moves\idle1.png" />
+    <None Remove="Moves\jump-1.png" />
+    <None Remove="Moves\jump-2.png" />
+    <None Remove="Moves\jump-3.png" />
+    <None Remove="Moves\jump-4.png" />
+    <None Remove="Moves\jump-5.png" />
+    <None Remove="Moves\jump-6.png" />
+    <None Remove="Moves\jump-7.png" />
+    <None Remove="Moves\left-1.png" />
+    <None Remove="Moves\left-2.png" />
+    <None Remove="Moves\left-3.png" />
+    <None Remove="Moves\left-4.png" />
+    <None Remove="Moves\left-5.png" />
+    <None Remove="Moves\right-1.png" />
+    <None Remove="Moves\right-2.png" />
+    <None Remove="Moves\right-3.png" />
+    <None Remove="Moves\right-4.png" />
+    <None Remove="Moves\right-5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Moves\area.png" />
+    <EmbeddedResource Include="Moves\background.png" />
+    <EmbeddedResource Include="Moves\bg.png" />
+    <EmbeddedResource Include="Moves\bullet_h.png" />
+    <EmbeddedResource Include="Moves\bullet_v.png" />
+    <EmbeddedResource Include="Moves\dock-1.png" />
+    <EmbeddedResource Include="Moves\dock-2.png" />
+    <EmbeddedResource Include="Moves\dock-3.png" />
+    <EmbeddedResource Include="Moves\dock-4.png" />
+    <EmbeddedResource Include="Moves\dock-5.png" />
+    <EmbeddedResource Include="Moves\idle-2.png" />
+    <EmbeddedResource Include="Moves\idle1.png" />
+    <EmbeddedResource Include="Moves\jump-1.png" />
+    <EmbeddedResource Include="Moves\jump-2.png" />
+    <EmbeddedResource Include="Moves\jump-3.png" />
+    <EmbeddedResource Include="Moves\jump-4.png" />
+    <EmbeddedResource Include="Moves\jump-5.png" />
+    <EmbeddedResource Include="Moves\jump-6.png" />
+    <EmbeddedResource Include="Moves\jump-7.png" />
+    <EmbeddedResource Include="Moves\left-1.png" />
+    <EmbeddedResource Include="Moves\left-2.png" />
+    <EmbeddedResource Include="Moves\left-3.png" />
+    <EmbeddedResource Include="Moves\left-4.png" />
+    <EmbeddedResource Include="Moves\left-5.png" />
+    <EmbeddedResource Include="Moves\right-1.png" />
+    <EmbeddedResource Include="Moves\right-2.png" />
+    <EmbeddedResource Include="Moves\right-3.png" />
+    <EmbeddedResource Include="Moves\right-4.png" />
+    <EmbeddedResource Include="Moves\right-5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="2.80.3" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
